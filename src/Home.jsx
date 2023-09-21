@@ -1,6 +1,10 @@
+import ProfileCard from "./ProfileCard";
+
 function Home() {
     return (
-        <div>Home Page</div>
+        <div>
+            <ProfileCard/>
+        </div>
     )
 }
 

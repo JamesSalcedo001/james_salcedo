@@ -12,3 +12,13 @@ body {
   color: rgb(35, 30, 30);
 }
 
+#nav-bar {
+  background-color: rgb(204, 189, 189);
+  border-radius: 5vh;
+}
+
+#profile-image {
+  height: 20%;
+  width: 20%;
+  border-radius: 65%;
+}
