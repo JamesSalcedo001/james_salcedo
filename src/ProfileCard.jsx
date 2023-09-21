@@ -1,7 +1,7 @@
 import { about_me } from "./portfolioData"
 
 function ProfileCard() {
-    const {name, photo, bio, linkedIn, github, blog} = about_me
+    const {name, photo, bio, linkedIn, github, blog, email} = about_me
     return (
         <div>
             <h1>{name}</h1>
@@ -10,6 +10,7 @@ function ProfileCard() {
             <a href={linkedIn}>LinkedIn</a>
             <a href={blog}>Technical Blog</a>
             <a href={github}>GitHub</a>
+            <a href={email}>Email</a>
         </div>
     )
 }
