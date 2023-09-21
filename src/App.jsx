@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navigation from './Navigation'
 import ProjectsList from './ProjectsList'
+import Home from './Home'
 
 function App() {
 
@@ -9,8 +10,8 @@ function App() {
     <div className='App'>
         <Navigation/>
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="projects_list" element={<ProjectsList/>}/>
+          <Route path="/james_salcedo" element={<Home/>}/>
+          <Route path="/james_salcedo/projects_list" element={<ProjectsList/>}/>
         </Routes>
     </div>
   )

@@ -1,6 +1,15 @@
+import ProjectCard from "./ProjectCard";
+
 function ProjectsList() {
     return (
-        <div>List</div>
+        <div>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+        </div>
     )
 }
 

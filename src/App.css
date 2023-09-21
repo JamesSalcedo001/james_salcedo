@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(35, 30, 30);
+  color: whitesmoke;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  width: auto;
+  max-width: 60vw;
+  background-color: whitesmoke;
+  color: rgb(35, 30, 30);
+}
+
