@@ -12,12 +12,14 @@ const about_me = {
 
 const project_data = [
     {
+        id: 1,
         title: "Cool Cat Store",
         image: "https://user-images.githubusercontent.com/107723341/266446077-e3c59c90-15ce-4196-8e83-e96fd19a4b1a.png",
         github_link: "https://github.com/JamesSalcedo001/cool_cat_store",
         live_site: "https://cool-cat-store.onrender.com/"
     },
     {
+        id: 2,
         title: "Space Base, the Social App",
         image: "https://user-images.githubusercontent.com/107723341/243157331-7e9590d6-814b-4165-99e7-c8bd01f15b1a.png",
         github_link: "https://github.com/JamesSalcedo001/social_app",
