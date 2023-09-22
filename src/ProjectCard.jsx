@@ -1,7 +1,6 @@
 
 function ProjectCard({project}) {
     const {title, image, github_link, live_site, description, tech_stack} = project
-    console.log(project)
     return (
         <div className="card">
             <img className="card-image" src={image} alt={title}/>

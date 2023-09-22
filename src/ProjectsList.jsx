@@ -7,7 +7,7 @@ function ProjectsList() {
         <ProjectCard key={project.id} project={project}/>
     ))
     return (
-        <div>
+        <div className="projects-list">
             {projects}
         </div>
     )
