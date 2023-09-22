@@ -1,16 +1,20 @@
 import { about_me } from "./portfolioData"
 
 function ProfileCard() {
-    const {name, photo, bio, linkedIn, github, blog, email} = about_me
+    const {name, photo, bio, linkedIn, github, blog, resumePDF, email} = about_me
     return (
-        <div>
-            <h1>{name}</h1>
+        <div id="profile-card">
             <img id="profile-image" src={photo} alt="my photo"/>
+            <h1>{name}</h1>
             <p>{bio}</p>
-            <a href={linkedIn}>LinkedIn</a>
-            <a href={blog}>Technical Blog</a>
-            <a href={github}>GitHub</a>
-            <a href={email}>Email</a>
+            <h5>Technical links!</h5>
+            <a href={blog} target="_blank" rel="noopener noreferrer">Technical Blog</a>
+            <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href={resumePDF} target="_blank" rel="noopener noreferrer">Resume</a>
+
+            <h5>Contact me!</h5>
+            <a href={linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <h5>Email: {email}</h5>
         </div>
     )
 }

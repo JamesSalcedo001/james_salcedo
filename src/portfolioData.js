@@ -1,3 +1,4 @@
+import resumePDF from "./James_Salcedo_Resume.pdf"
 
 const about_me = {
     name: "James Salcedo",
@@ -6,7 +7,8 @@ const about_me = {
     bio: "I am a full stack developer passionate about creation, innovation, and collaboration. I am especially interested in the fields of technology and gaming, and have a strong desire to make a significant impact in driving the future.",
     linkedIn: "https://www.linkedin.com/in/james-antonio-salcedo/",
     github: "https://github.com/JamesSalcedo001",
-    blog: "https://medium.com/@james_salcedo"
+    blog: "https://medium.com/@james_salcedo",
+    resumePDF: resumePDF
 }
 
 

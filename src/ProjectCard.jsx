@@ -4,12 +4,12 @@ function ProjectCard({project}) {
     console.log(project)
     return (
         <div className="card">
-            <h1>{title}</h1>
             <img className="card-image" src={image} alt={title}/>
+            <h1>{title}</h1>
             <p>{description}</p>
             <p>Tech Stack: {tech_stack}</p>
-            <a href={github_link}>GitHub</a>
-            <a href={live_site}>Deployed Site</a>
+            <a href={github_link} target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href={live_site} target="_blank" rel="noopener noreferrer">Deployed Site</a>
         </div>
     )
 }
