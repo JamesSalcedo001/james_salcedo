@@ -7,8 +7,8 @@ function ProjectCard({project}) {
             <h1>{title}</h1>
             <p>{description}</p>
             <p>Tech Stack: {tech_stack}</p>
-            <a href={github_link} target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href={live_site} target="_blank" rel="noopener noreferrer">Deployed Site</a>
+            <a href={github_link} className="button-project" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href={live_site} className="button-project" target="_blank" rel="noopener noreferrer">Deployed Site</a>
         </div>
     )
 }
