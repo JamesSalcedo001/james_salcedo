@@ -1,33 +1,42 @@
 body {
-  background-color: #3AAFA9;
+  background-color: #17252A;
   color: whitesmoke;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 20vh;
 }
 
 .card {
   padding-bottom: 3vh;
   text-align: center;
   width: 100%;
-  max-width: 50vw;
-  margin-bottom: 2rem;
-  border-radius: 10px;
+  min-height: 80vh;
+  max-width: 40vw;
+  padding: 5vh;
+  margin-bottom: 5rem;
+  border-radius: 3vh;
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.589);
   color: #DEF2F1;
   background-color: #17252A;
+  transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.card:hover {
+  text-shadow: #3AAFA9;
+  box-shadow: 0 8px 20px #3AAFA9,
+  0 0 20px rgba(143, 199, 198, 0.5);
+  transform: translate(-20px, -20px);
 }
 
 #menu-button {
   color: #DEF2F1;
-  background-color: #3AAFA9;
+  background-color:#17252A;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 0;
   margin: 0;
-  margin-bottom: 16px;
 }
 
 .projects-list {
@@ -41,41 +50,45 @@ body {
 #nav-container {
   position: fixed;
   top: 0;
-  right: 0;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  left: 0;
+  padding: 20px;
 }
 
 #nav-bar {
-  background-color: #17252A;
-  color: #DEF2F1;
-  border-radius: 1vh;
-  min-height: 10vh;
-  max-width: 20vw;
-  margin: auto;
-  padding: 10px;
-  transition: transform 0.3s ease-in-out;
-  transform-origin: top-right;
-  transform: scaleY(0);
+ height: 0;
+ width: 100px;
+ position: absolute;
+ top: 80px;
+ border-radius: 8px;
 }
 
-#nav-bar a {
-  text-align: right;
+.nav-links {
+  color: #DEF2F1;
   display: block;
-  margin-bottom: 8px;
+  padding: 0.8rem;
+  text-align: center;
+  border: 1px solid #DEF2F1;
+  margin: 5px 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  background-color: #DEF2F1;
+  color: #17252A;
+  border-color: #3AAFA9;
 }
 
 #nav-container.open #nav-bar {
-  transform: scaleY(1);
+  height: fit-content;
+  width: fit-content;
 }
 
 #profile-image {
   height: 40%;
   width: 40%;
   border-radius: 65%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .card-image {
@@ -88,12 +101,19 @@ body {
 #profile-card {
   color: #DEF2F1;
   background-color: #17252A;
-  box-shadow: 0 8px 10px rgba(255, 255, 255, 0.981);
   border-radius: 3vh;
   padding: 5vh;
-  max-width: 40vw;
+  max-width: 30vw;
+  min-height: fit-content;
   margin: auto;
-  margin-top: 30vh;
+  margin-top: 5vh;
+  transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+#profile-card:hover {
+  box-shadow: 0 8px 20px #3AAFA9,
+  0 0 20px rgba(143, 199, 198, 0.5);
+  transform: translate(-20px, -20px);
 }
 
 @media only screen and (max-width: 768px) {

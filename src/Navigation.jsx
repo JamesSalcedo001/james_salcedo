@@ -10,7 +10,7 @@ function Navigation() {
         return (
             <div id="nav-container" className={isShown ? "open" : ""}>
                 <button id="menu-button" onClick={() => setIsShown(!isShown)}>
-                    {isShown ? <CgCloseR size={50}/> : <LuMenuSquare size={50}/>}
+                    {isShown ? <CgCloseR size={39}/> : <LuMenuSquare size={42}/>}
                 </button>
                 {isShown && (
                     <div id="nav-bar">
