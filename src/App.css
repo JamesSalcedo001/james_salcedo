@@ -13,6 +13,7 @@ body {
   width: 100%;
   min-height: 80vh;
   max-width: 40vw;
+  min-width: fit-content;
   padding: 5vh;
   margin-bottom: 5rem;
   border-radius: 3vh;
@@ -85,14 +86,14 @@ body {
 }
 
 #profile-image {
-  height: 40%;
-  width: 40%;
+  height: 12em;
+  width: 12em;
   border-radius: 65%;
   margin-bottom: 2rem;
 }
 
 .card-image {
-  width: 100%;
+  width: 35em;
   border-radius: 10px;
   min-height: 50vh;
   margin-bottom: 3rem;
@@ -178,10 +179,14 @@ h1 {
 @media only screen and (max-width: 768px) {
   .card, #profile-card {
     max-width: 90vw;
+    min-width: fit-content;
+    min-height: auto;
+    padding: 3vh;
   }
 
   .card-image #profile-image {
-    width: 60%;
+    min-width: auto;
+    height: auto;
   }
 
   #nav-bar {
