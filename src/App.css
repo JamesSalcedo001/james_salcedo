@@ -23,7 +23,6 @@ body {
 }
 
 .card:hover {
-  text-shadow: #3AAFA9;
   box-shadow: 0 8px 20px #3AAFA9,
   0 0 20px rgba(143, 199, 198, 0.5);
   transform: translate(-20px, -20px);
@@ -95,7 +94,26 @@ body {
   width: 100%;
   border-radius: 10px;
   height: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 3%;
+  margin-bottom: 10vh;
+  background-color: #3AAFA9;
+  color: #17252A;
+  text-decoration: none;
+  min-width: 4rem;
+  border-radius: 1vh;
+  text-align: center;
+  transition: background-color 0.4s;
+}
+
+.button:hover {
+  background-color: #DEF2F1;
+  color: #17252A;
 }
 
 #profile-card {
@@ -103,11 +121,15 @@ body {
   background-color: #17252A;
   border-radius: 3vh;
   padding: 5vh;
-  max-width: 30vw;
-  min-height: fit-content;
+  max-width: 40vw;
+  min-height: 80vh;
   margin: auto;
   margin-top: 5vh;
   transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+h1 {
+  color: #3AAFA9;
 }
 
 #profile-card:hover {

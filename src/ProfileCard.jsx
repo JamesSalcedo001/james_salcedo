@@ -8,9 +8,9 @@ function ProfileCard() {
             <h1>{name}</h1>
             <p>{bio}</p>
             <h5>Technical links!</h5>
-            <a href={blog} target="_blank" rel="noopener noreferrer">Technical Blog</a>
-            <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href={resumePDF} target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href={blog} className="button" target="_blank" rel="noopener noreferrer">Blog</a>
+            <a href={github} className="button" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href={resumePDF} className="button" target="_blank" rel="noopener noreferrer">Resume</a>
 
             <h5>Contact me!</h5>
             <a href={linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a>
