@@ -325,7 +325,7 @@ h1 {
 
 @media (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 0.85rem;
   }
 
   .card img {
@@ -335,7 +335,14 @@ h1 {
 
   .card {
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 0 8rem 0;
+    width: 120%;
+  }
+
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+    margin-bottom: 3vh;
   }
 
   .button-project {
@@ -343,5 +350,10 @@ h1 {
     font-size: 12px;
   }
 
-  
+  .button-project:hover {
+    background-color: #3AAFA9;
+    color: #17252A;
+  }
+
+
 }
