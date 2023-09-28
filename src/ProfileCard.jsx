@@ -12,9 +12,9 @@ function ProfileCard() {
             <a href={github} className="button" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href={resumePDF} className="button" target="_blank" rel="noopener noreferrer">Resume</a>
 
-            <h5>Contact me!</h5>
+            <h5 id="contact-me">Contact me!</h5>
             <a id="linkedin-tag" href={linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <h5>Email: {email}</h5>
+            <h5 id="email">Email: {email}</h5>
         </div>
     )
 }

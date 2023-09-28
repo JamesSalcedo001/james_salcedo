@@ -2,7 +2,7 @@ import ProfileCard from "./ProfileCard";
 
 function Home() {
     return (
-        <div>
+        <div id="profile-card-container">
             <ProfileCard/>
         </div>
     )

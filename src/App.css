@@ -231,17 +231,20 @@ h1 {
   height: auto;
   border-radius: 65%;
   margin-bottom: 2rem;
+  margin-top: 4vh;
 }
 
 .card-image {
   width: 100%;
   height: auto;
-  margin-bottom: 3rem;
+  margin-top: 4vh;
+  margin-bottom: 2rem;
   border-radius: 1rem;
 }
 
 .card p {
   margin-top: 4rem;
+  max-width: 55rem;
 }
 
 .card h1 {
@@ -249,9 +252,9 @@ h1 {
 }
 
 .card {
-  padding: 2rem;
+  padding: 3rem;
   font-size: 0.9rem;
-  min-width: fit-content;
+  width: 100%;
   min-height: 40vh;
   text-align: center;
   border-radius: 3vh;
@@ -269,6 +272,14 @@ h1 {
 }
 
 .projects-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  width: 100%;
+}
+
+#profile-card-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,10 +306,10 @@ h1 {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  margin: 5% 1%;
-  margin-bottom: 5vh;
+  margin: 2% 1%;
+  margin-bottom: 1rem;
   background-color: #3AAFA9;
-  color: #17252A;
+  color: #DEF2F1;
   text-decoration: none;
   min-width: 4rem;
   border-radius: 1vh;
@@ -319,7 +330,7 @@ h1 {
   margin-bottom: 5vh;
   margin-top: 5vh;
   background-color: #3AAFA9;
-  color: #17252A;
+  color: #DEF2F1;
   text-decoration: none;
   min-width: 6rem;
   border-radius: 1vh;
@@ -332,36 +343,111 @@ h1 {
   color: #17252A;
 }
 
+#linkedin-tag {
+  padding: 10px 20px;
+  background-color: #3AAFA9;
+  color: #DEF2F1;
+  text-decoration: none;
+  min-width: 4rem;
+  border-radius: 1vh;
+  text-align: center;
+  transition: background-color 0.4s; 
+}
+
+#linkedin-tag:hover {
+  background-color: #DEF2F1;
+  color: #17252A;
+}
+
+#contact-me {
+  margin-bottom: 2rem;
+}
+
+#email {
+  margin-top: 3rem;
+}
+
+#profile-card {
+  color: #DEF2F1;
+  background-color: #17252A;
+  border-radius: 3vh;
+  width: 100%;
+  padding: 2vh 1vw;
+  transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+#profile-card h1 {
+  color: #3AAFA9;
+}
+
+#profile-card:hover {
+  box-shadow: 0 8px 20px #3AAFA9,
+  0 0 20px rgba(143, 199, 198, 0.5);
+  transform: translate(-20px, -20px);
+}
+
+
 @media (max-width: 768px) {
   body {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   .card img {
     width: 100%;
-    height: auto;
+    height: 15rem;
   }
 
   .card {
     padding: 10px;
     margin: 10px 0 8rem 0;
-    width: 120%;
+    width: 150%;
+    margin-bottom: 20vh;
   }
 
   .card:hover {
     transform: none;
-    box-shadow: none;
-    margin-bottom: 3vh;
   }
 
   .button-project {
     padding: 5px 10px;
     font-size: 12px;
+    background-color: #3AAFA9;
+    color: #DEF2F1;
+    border: #DEF2F1 1px solid;
   }
 
   .button-project:hover {
+    color: #3AAFA9;
+    background-color: #17252A;
+    border: #3AAFA9 1px solid;
+  }
+
+  .projects-list {
+    padding: 0;
+    margin: 0;
+  }
+
+  #profile-card {
+    width: 150%;
+    margin: 10px 0 8rem 0;
+  }
+
+  #profile-card:hover {
+    transform: none;
+  }
+
+  #linkedin-tag {
+    padding: 5px 10px;
+    font-size: 12px;
     background-color: #3AAFA9;
-    color: #17252A;
+    color: #DEF2F1;
+    border: #DEF2F1 1px solid;
+  }
+  
+  #linkedin-tag:hover {
+    color: #3AAFA9;
+    background-color: #17252A;
+    border: #3AAFA9 1px solid;
   }
 
 
