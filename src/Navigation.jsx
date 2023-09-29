@@ -11,7 +11,7 @@ function Navigation() {
         if(!isShown) {
             setTimeout(() => {
                 setIsShown(false)
-            }, 6000)
+            }, 5000)
         }
     }
 
@@ -21,8 +21,8 @@ function Navigation() {
                     {isShown ? <CgCloseR size={42}/> : <LuMenuSquare size={42}/>}
                 </button>
                     <div id="nav-bar">
-                         <NavLink to="/james_salcedo" className="nav-links">Home</NavLink>
-                         <NavLink to="/james_salcedo/projects_list" className="nav-links">Projects</NavLink>
+                         <NavLink to="/" className="nav-links">Home</NavLink>
+                         <NavLink to="/projects_list" className="nav-links">Projects</NavLink>
                     </div>
             </div>
         )
