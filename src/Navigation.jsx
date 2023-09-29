@@ -6,10 +6,18 @@ import { CgCloseR } from "react-icons/cg";
 function Navigation() {
     const [isShown, setIsShown] = useState(false)
 
+    const toggleIsShown = () => {
+        setIsShown(!isShown)
+        if(!isShown) {
+            setTimeout(() => {
+                setIsShown(false)
+            }, 6000)
+        }
+    }
 
         return (
             <div id="nav-container" className={isShown ? "open" : ""}>
-                <button id="menu-button" onClick={() => setIsShown(!isShown)}>
+                <button id="menu-button" onClick={toggleIsShown}>
                     {isShown ? <CgCloseR size={42}/> : <LuMenuSquare size={42}/>}
                 </button>
                     <div id="nav-bar">
