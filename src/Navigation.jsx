@@ -11,7 +11,7 @@ function Navigation() {
         if(!isShown) {
             setTimeout(() => {
                 setIsShown(false)
-            }, 5000)
+            }, 3000)
         }
     }
 
