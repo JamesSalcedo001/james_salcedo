@@ -287,7 +287,6 @@ h1 {
 }
 
 
-
 #profile-main-title:hover {
   color: #3AAFA9;
 }
@@ -524,12 +523,12 @@ h1 {
   }
 
   .projects-list {
-    margin-top: 7rem;
+    margin-top: 4rem;
     padding: 0;
   }
 
   #profile-card-container {
-    margin-top: 10vh;
+    margin-top: 8vh;
   }
 
   #profile-card {
@@ -540,6 +539,28 @@ h1 {
   #profile-card:hover {
     transform: none;
   }
+
+  #profile-main-title {
+    font-size: 300%;
+    margin-bottom: 5rem;
+    transition: color 0.4s ease-in-out;
+  }
+
+  #profile-main-title::after {
+    transition: box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out, width 0.3s ease-in-out;
+  }
+
+  #project-main-title {
+    font-size: 300%;
+    margin-bottom: 5rem;
+    transition: color 0.4s ease-in-out;
+  }
+
+  #project-main-title::after {
+    transition: box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out, width 0.3s ease-in-out;
+  }
+  
+  
 
   #linkedin-tag {
     padding: 5px 10px;
