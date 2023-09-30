@@ -275,9 +275,72 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20vh;
+  margin-top: 10vh;
   width: 100%;
 }
+
+#profile-main-title {
+  font-size: 500%;
+  position: relative;
+  margin-bottom: 15rem;
+  transition: color 0.7s ease-in-out;
+}
+
+
+
+#profile-main-title:hover {
+  color: #3AAFA9;
+}
+
+#profile-main-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0%;
+  height: 1px;
+  background-color: #DEF2F1;
+  opacity: 0;
+  transition: box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out, width 0.6s ease-in-out;
+}
+
+#profile-main-title:hover::after {
+  width: 100%;
+  opacity: 1;
+  box-shadow:  0 0 10px #DEF2F1, 0 0 20px #DEF2F1;
+}
+
+
+#project-main-title {
+  font-size: 500%;
+  position: relative;
+  margin-bottom: 15rem;
+  transition: color 0.7s ease-in-out;
+}
+
+
+#project-main-title:hover {
+  color: #3AAFA9;
+}
+
+#project-main-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0%;
+  height: 1px;
+  background-color: #DEF2F1;
+  opacity: 0;
+  transition: box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out, width 0.6s ease-in-out;
+}
+
+#project-main-title:hover::after {
+  width: 100%;
+  opacity: 1;
+  box-shadow:  0 0 10px #DEF2F1, 0 0 20px #DEF2F1;
+}
+
 
 #profile-card-container {
   display: flex;
@@ -356,8 +419,8 @@ h1 {
   color: #DEF2F1;
   background-color: #17252A;
   border-radius: 3vh;
-  width: 100%;
-  padding: 2vh 1vw;
+  width: 95%;
+  padding: 1vh 1vw;
   transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
@@ -432,13 +495,13 @@ h1 {
 
   .card img {
     width: 100%;
-    height: 15rem;
+    height: 16rem;
   }
 
   .card {
-    padding: 10px;
+    padding: 8px;
     margin: 10px 0 8rem 0;
-    width: 150%;
+    width: 145%;
     margin-bottom: 20vh;
   }
 
@@ -461,7 +524,7 @@ h1 {
   }
 
   .projects-list {
-    margin-top: 8rem;
+    margin-top: 7rem;
     padding: 0;
   }
 
@@ -470,7 +533,7 @@ h1 {
   }
 
   #profile-card {
-    width: 150%;
+    width: 145%;
     margin: 10px 0 8rem 0;
   }
 

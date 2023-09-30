@@ -8,6 +8,7 @@ function ProjectsList() {
     ))
     return (
         <div className="projects-list">
+            <h1 id="project-main-title">My Current Projects</h1>
             {projects}
         </div>
     )
