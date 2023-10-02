@@ -1,4 +1,4 @@
-import resumePDF from "./James_Salcedo_Resume.pdf"
+import resumePDF from "./James_Salcedo_Resume (1).pdf"
 
 const about_me = {
     name: "James Salcedo",
