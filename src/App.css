@@ -490,6 +490,14 @@ h1 {
 @media (max-width: 768px) {
   body {
     font-size: 0.8rem;
+    position: relative;
+    z-index: 0;
+  }
+
+
+  #menu-button {
+    position: relative;
+    z-index: -1;
   }
 
   .card img {
@@ -502,6 +510,8 @@ h1 {
     margin: 10px 0 8rem 0;
     width: 145%;
     margin-bottom: 20vh;
+    position: relative;
+    z-index: 2;
   }
 
   .card:hover {
@@ -534,6 +544,8 @@ h1 {
   #profile-card {
     width: 145%;
     margin: 10px 0 8rem 0;
+    position: relative;
+    z-index: 2;
   }
 
   #profile-card:hover {
@@ -560,6 +572,11 @@ h1 {
     transition: box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out, width 0.3s ease-in-out;
   }
   
+  #nav-container {
+    position: fixed;
+    z-index: 1;
+
+  }
   
 
   #linkedin-tag {

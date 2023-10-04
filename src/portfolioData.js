@@ -30,7 +30,24 @@ const project_data = [
         tech_stack: "Ruby, Javascript, React, Ruby on Rails, PostgreSQL, Render",
         github_link: "https://github.com/JamesSalcedo001/social_app",
         live_site: "https://social-app-jpxa.onrender.com/"
-    },
+    }
 ]
 
 export { about_me, project_data };
+
+
+
+
+
+
+// ,
+//     {
+//         id: 3,
+//         title: "Kitty Shelter",
+//         image: "https://user-images.githubusercontent.com/107723341/232581303-371a7cb4-afa0-430f-b1cf-f6da270be077.png",
+//         description: "Web app for cat shelter employing Sinatra, Active Record and Ruby",
+//         tech_stack: "Ruby, Javascript, React, Sinatra, Active Record",
+//         github_link: "https://github.com/JamesSalcedo001/front"
+//     }
+
+// either deploy site or leave out
