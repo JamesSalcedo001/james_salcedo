@@ -1,7 +1,7 @@
 import { about_me } from "./portfolioData"
-console.log(about_me.photo)
 function ProfileCard() {
     const {name, photo, bio, linkedIn, github, blog, resumePDF, email} = about_me
+    console.log(photo)
     return (
         <div id="profile-card">
             <img id="profile-image" src={photo} alt="my photo"/>
