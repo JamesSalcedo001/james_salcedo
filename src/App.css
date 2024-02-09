@@ -227,8 +227,8 @@ h1 {
 
 
 #profile-image {
-  width: 30%;
-  border-radius: 3%;
+  width: 40%;
+  border-radius: 3rem;
   margin-bottom: 2rem;
   margin-top: 4vh;
 }
@@ -416,7 +416,7 @@ h1 {
 #profile-card {
   color: #DEF2F1;
   background-color: #17252A;
-  border-radius: 3vh;
+  border-radius: 3rem;
   width: 95%;
   padding: 1vh 1vw;
   transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;

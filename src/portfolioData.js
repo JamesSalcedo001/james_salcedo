@@ -1,5 +1,5 @@
 import resumePDF from "./James_Salcedo_Resume (1).pdf"
-import profilePhoto from "./IMG_1842.jpeg";
+import profilePhoto from "./Screen Shot 2023-12-03 at 8.10.16 PM.png";
 
 
 const about_me = {
