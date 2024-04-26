@@ -18,6 +18,7 @@ function Navigation() {
         return (
             <div id="nav-container" className={isShown ? "open" : ""}>
                 <button id="menu-button" onClick={toggleIsShown}>
+                <h3>Menu</h3>
                     {isShown ? <CgCloseR size={42}/> : <LuMenuSquare size={42}/>}
                 </button>
                     <div id="nav-bar">
