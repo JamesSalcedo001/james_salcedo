@@ -1,5 +1,6 @@
 import resumePDF from "./James_Salcedo_Resume (1).pdf"
 import profilePhoto from "./Screen Shot 2023-12-03 at 8.10.16 PM.png";
+import sweetBanditImage from "./images/Screen Shot 2024-05-07 at 5.58.52 PM.png"
 
 
 const about_me = {
@@ -38,7 +39,7 @@ const project_data = [
     {
         id: 3,
         title: "The Sweet Bandit",
-        image: "./src/images/Screen Shot 2024-05-07 at 5.58.52 PM.png",
+        image: sweetBanditImage,
         description: "Official Site for The Sweet Bandit local business. Currently working with client to deliver further features to the site.",
         tech_stack: "Redux, Stripe, Vite, Ruby, JavaScript, React, Ruby on Rails, PostgreSQL, Render, Jira",
         github_link: "https://github.com/JamesSalcedo001/sweet_bandit",
