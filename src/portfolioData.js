@@ -1,4 +1,4 @@
-import resumePDF from "./James_Salcedo_Resume (1).pdf"
+import resumePDF from "./James_Salcedo_Resume (5).pdf"
 import profilePhoto from "./Screen Shot 2023-12-03 at 8.10.16 PM.png";
 import sweetBanditImage from "./images/Screen Shot 2024-05-07 at 5.58.52 PM.png"
 
@@ -53,15 +53,3 @@ export { about_me, project_data };
 
 
 
-
-// ,
-//     {
-//         id: 3,
-//         title: "Kitty Shelter",
-//         image: "https://user-images.githubusercontent.com/107723341/232581303-371a7cb4-afa0-430f-b1cf-f6da270be077.png",
-//         description: "Web app for cat shelter employing Sinatra, Active Record and Ruby",
-//         tech_stack: "Ruby, Javascript, React, Sinatra, Active Record",
-//         github_link: "https://github.com/JamesSalcedo001/front"
-//     }
-
-// either deploy site or leave out
