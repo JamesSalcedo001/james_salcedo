@@ -42,7 +42,6 @@ const project_data = [
         image: sweetBanditImage,
         description: "Official Site for The Sweet Bandit local business. Currently working with client to deliver further features to the site.",
         tech_stack: "Redux, Stripe, Vite, Ruby, JavaScript, React, Ruby on Rails, PostgreSQL, Render, Jira",
-        github_link: "https://github.com/JamesSalcedo001/sweet_bandit",
         live_site: "https://sweet-bandit.onrender.com/"
     }
 ]

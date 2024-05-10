@@ -9,9 +9,6 @@ function ProfileCard() {
             <p id="pf-bio">{bio}</p>
         </div>
         <div id="profile-card">
-            {/* <img id="profile-image" src={photo} alt="my photo"/>
-            <h1>{name}</h1>
-            <p id="pf-bio">{bio}</p> */}
             <h2>Technical links!</h2>
             <a href={blog} className="button" target="_blank" rel="noopener noreferrer">Blog</a>
             <a href={github} className="button" target="_blank" rel="noopener noreferrer">GitHub</a>
