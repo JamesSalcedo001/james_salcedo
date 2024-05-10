@@ -13,7 +13,8 @@ function ProfileCard() {
             <a href={resumePDF} className="button" target="_blank" rel="noopener noreferrer">Resume</a>
 
             <h5 id="contact-me">Contact me!</h5>
-            <a id="linkedin-tag" href={linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            {/* <a id="linkedin-tag" href={linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a> */}
+            <a className="button" href={linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <h5 id="email">Email: {email}</h5>
         </div>
         </>

@@ -415,7 +415,7 @@ h1 {
   color: #17252A;
 }
 
-#linkedin-tag {
+/* #linkedin-tag {
   padding: 10px 20px;
   background-color: #3AAFA9;
   color: #DEF2F1;
@@ -430,7 +430,7 @@ h1 {
 #linkedin-tag:hover {
   background-color: #DEF2F1;
   color: #17252A;
-}
+} */
 
 #contact-me {
   margin-bottom: 2rem;
@@ -636,8 +636,9 @@ h1 {
   }
   
 
-  #linkedin-tag {
-    padding: 10px 75px;
+  /* #linkedin-tag {
+    padding: 10px 20px;
+    min-width: 80%;
     font-size: 12px;
     background-color: #3AAFA9;
     color: #DEF2F1;
@@ -647,7 +648,7 @@ h1 {
     color: #3AAFA9;
     background-color: #17252A;
     border: #3AAFA9 1px solid;
-  }
+  } */
 
 
 }
