@@ -227,24 +227,40 @@ h1 {
 }
 
 
-#profile-image {
+/* #profile-image {
   width: 40%;
-  border-radius: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 4vh;
+} */
+
+#profile-image {
+  width: 60%;
+  height: auto;
+  border-radius: 1rem;
   margin-bottom: 2rem;
   margin-top: 4vh;
 }
 
 .card-image {
   width: 100%;
-  height: auto;
+  height: 25rem;
   margin-top: 4vh;
   margin-bottom: 2rem;
   border-radius: 1rem;
 }
 
-.card p {
+/* .card p {
   margin-top: 4rem;
   max-width: 55rem;
+} */
+
+.card p {
+  /* margin-top: 4rem;
+  max-width: 55rem; */
+  margin-inline: 1rem;
+  margin-top: 3rem;
+  font-weight: 600;
 }
 
 .card h1 {
@@ -253,11 +269,13 @@ h1 {
 
 .card {
   padding: 3rem;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
+  font-weight: 600;
   width: 80%;
   min-height: 40vh;
   text-align: center;
-  border-radius: 3vh;
+  /* border-radius: 3vh; */
+  border-radius: 2rem;
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.589);
   color: #DEF2F1;
   background-color: #17252A;
@@ -349,6 +367,11 @@ h1 {
   width: 100%;
 }
 
+#pf-bio {
+  margin-inline:4rem;
+  font-weight: 600;
+}
+
 
 .button {
   display: inline-block;
@@ -421,8 +444,11 @@ h1 {
   color: #DEF2F1;
   background-color: #17252A;
   border-radius: 2rem;
-  width: 95%;
-  padding: 1vh 1vw;
+  /* width: 95%; */
+  width: 80%;
+  /* padding: 1vh 1vw; */
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.589);
+  padding: 3rem;
   transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
@@ -504,7 +530,8 @@ h1 {
   }
 
   .card img {
-    width: 100%;
+    /* width: 100%; */
+    width: 90%;
     height: 16rem;
   }
 
@@ -535,6 +562,22 @@ h1 {
     border: #3AAFA9 1px solid;
   }
 
+
+  .button {
+    padding: 10px 20px;
+    width: 80%;
+    font-size: 12px;
+    background-color: #3AAFA9;
+    color: #DEF2F1;
+    /* border: #DEF2F1 1px solid; */
+  }
+
+  .button:hover {
+    color: #3AAFA9;
+    background-color: #17252A;
+    border: #3AAFA9 1px solid;
+  }
+
   .projects-list {
     margin-top: 4rem;
     padding: 0;
@@ -545,14 +588,25 @@ h1 {
   }
 
   #profile-card {
-    width: 145%;
+    /* width: 145%; */
+    width: 100%;
     margin: 10px 0 8rem 0;
     position: relative;
     z-index: 2;
+    /* font-size: 80%; */
   }
 
   #profile-card:hover {
     transform: none;
+  }
+
+  #pf-bio {
+    margin-inline:0.5rem;
+  }
+  
+
+  #profile-image {
+    width: 90%;
   }
 
   #profile-main-title {
@@ -583,11 +637,10 @@ h1 {
   
 
   #linkedin-tag {
-    padding: 10px 20px;
+    padding: 10px 75px;
     font-size: 12px;
     background-color: #3AAFA9;
     color: #DEF2F1;
-    /* border: #DEF2F1 1px solid; */
   }
   
   #linkedin-tag:hover {
