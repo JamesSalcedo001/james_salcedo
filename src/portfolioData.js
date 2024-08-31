@@ -1,4 +1,4 @@
-import resumePDF from "./James_Salcedo_Resume (5).pdf"
+import resumePDF from "./James_Salcedo_Resume (current).pdf"
 import profilePhoto from "./Screen Shot 2023-12-03 at 8.10.16 PM.png";
 import sweetBanditImage from "./images/Screen Shot 2024-05-07 at 5.58.52 PM.png"
 
@@ -7,8 +7,6 @@ const about_me = {
     name: "James Salcedo",
     email: "jamesa.salcedo3@gmail.com",
     photo: profilePhoto,
-    // photo: "https://media.licdn.com/dms/image/D5603AQHJ7bDWd-gD8A/profile-displayphoto-shrink_800_800/0/1694925887458?e=1707350400&v=beta&t=bvjK-sXVcOR_sr6NWFayElDe5hHgDizIy9XGbR3TR8g",
-    // photo: "src/Screen Shot 2023-12-03 at 8.10.16 PM.png",
     bio: "I am a full stack developer passionate about creation, innovation, and collaboration. I am especially interested in the fields of technology and gaming, and have a strong desire to make a significant impact in driving the future.",
     linkedIn: "https://www.linkedin.com/in/james-antonio-salcedo/",
     github: "https://github.com/JamesSalcedo001",
